@@ -23,3 +23,5 @@ if we want to have multiple remote repository, we can run `git remote add other_
 - git checkout -b branch_name                         => create a branch name and switch directly on this
 - git branch new-branch_name source-branch            => create a branch name and switch directly on this from another branch
 - git push --set-upstream origin branch_name          => push a specific branch
+- git push -u origin branch_name                      => push a specific branch
+- git push                                            => push the current branch
