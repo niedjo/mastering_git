@@ -1,0 +1,19 @@
+
+- git --version                                 => get the actual version of git 
+- git config --global user.name 'name'          => add my name to work with
+- git config --global user.email 'email'        => add my email to work with
+- git config --global init.defaultBranch main   => set the branch main as default
+- git init                                      => initialize a new repository
+- git status                                    => show all files untracked
+- git add file.extention                        => track a file
+- git add .                                     => track all files on your projects
+- git commit -m 'message'                       => create a copy of my project as an internal backup 
+- git checkout [hash or branch]                 => ask to git to shift on the specific commit or branch
+
+NB : a local repo is a version of your project stored in the your local machine while a remote repos is a
+version of your project stored in a server like github, gitlab or bitbucket
+
+when we clone a repository on github, git automaticaly names our repository as origin by default is
+an alias for our remote repository url (origin = https://github.com/nkds/portfolio)
+
+if we want to have multiple remote repository, we can run `git remote add other_origin_name link_to_the_origin` after run `git remote add origin link_to_the_other_origin` 
