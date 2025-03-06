@@ -25,3 +25,11 @@ if we want to have multiple remote repository, we can run `git remote add other_
 - git push --set-upstream origin branch_name          => push a specific branch
 - git push -u origin branch_name                      => push a specific branch
 - git push                                            => push the current branch
+- git pull                                            => update a branch if somebody else has modify our remote repository
+
+A pull request let's you share your changes with your team for review of feedback
+
+if we want to reset our github informations in our pc, we can run the commands
+
+- git credential reject https://github.com
+- cmdkey /delete:git:https://github.com
