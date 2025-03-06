@@ -30,6 +30,8 @@ if we want to have multiple remote repository, we can run `git remote add other_
 
 A pull request let's you share your changes with your team for review of feedback, if we wont to pull the project in a pc which is 
 not the main pc (principal remote origin) we should run all of these commands : 
+
+- git remote add upstream https://github.com/ORIGINAL_USER/NOM_PROJET.git
 - git fetch upstream          # Récupère les nouvelles mises à jour du projet principal
 - git checkout main           # Se place sur la branche principale de ton fork
 - git merge upstream/main     # Fusionne les nouvelles mises à jour du projet principal
