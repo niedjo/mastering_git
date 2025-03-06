@@ -19,5 +19,6 @@ an alias for our remote repository url (origin = https://github.com/nkds/portfol
 if we want to have multiple remote repository, we can run `git remote add other_origin_name link_to_the_origin` after run `git remote add origin link_to_the_other_origin` 
 
 
-- git branch branch_name                 => create a branch name without directly swich on this
-- git checkout -b branch_name            => create a branch name and switch directly on this
+- git branch branch_name                              => create a branch name without directly swich on this
+- git checkout -b branch_name                         => create a branch name and switch directly on this
+- git branch new-branch_name source-branch            => create a branch name and switch directly on this from another branch
