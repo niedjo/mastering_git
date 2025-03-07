@@ -57,4 +57,8 @@ in thoses commits we have tree maners to use this command :
 - git reset --soft <commit-hash>    => soft reset simply move the specify commit in the history but keep changes stage in our working directory (every changes that we will make after that commit will be in the stage mode)
 - git reset <commit-hash>           => mixed reset move the specific commit into the history unstage the changes and keeps them in the working directory 
 - git reset --soft <commit-hash>    => hard reset move the specific commit into the history and discard all changes in the working directory and staging area 
-- git revert <commit-hash>          => use if a specific commit brake and you want to undo from another commit without losing the commit history 
+- git revert <commit-hash>          => use if a specific commit brake and you want to undo from another commit without losing the commit history
+- git stash                         => this command presave your code in your history. It's very usefull because if for example your coding and the last commit
+have some bugs and you should resolve it without undo the code that your writing now, without run a git reset, you shoud just stash your actual code, resolve the probleme and 
+run a git add . => git commit -m 'message' => git push. 
+finally run git stash list\ (to see the list of all the stash) => git stash apply stash@{stash_number} => resolve the merge conflict => continue your feature
