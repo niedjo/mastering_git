@@ -51,3 +51,6 @@ To resolve a merge conflict, we should follow these steps :
 - go on the branch witch has a conflick (which is doesn't merged) by running    => git checkout [branch_with_conflics]
 - and merge to main                                                             => git merge main
 - finally, go on the mergin system on our code editor and resolve the merge conflic
+
+- git reset             => allows you to remove the traces of commit in the history but give us the changes we made 
+in thoses commits
