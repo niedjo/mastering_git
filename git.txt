@@ -41,3 +41,13 @@ if we want to reset our github informations in our pc, we can run the commands
 
 - git credential reject https://github.com
 - cmdkey /delete:git:https://github.com
+
+now we are going to talk about merge conflicts.
+
+Is a problem that we have when many developpers modify a same file at the same time 
+and make a pull request
+To resolve a merge conflict, we should follow these steps : 
+- pull the repo by runnig                                                       => git pull
+- go on the branch witch has a conflick (which is doesn't merged) by running    => git checkout [branch_with_conflics]
+- and merge to main                                                             => git merge main
+- finally, go on the mergin system on our code editor and resolve the merge conflic
