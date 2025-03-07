@@ -54,4 +54,7 @@ To resolve a merge conflict, we should follow these steps :
 
 - git reset                         => allows you to remove the traces of commit in the history but give us the changes we made 
 in thoses commits we have tree maners to use this command : 
-- git commit --soft <commi-hash>    => soft reset simply move the specify commit in the history but keep changes stage in our working directory (every changes that we will make after that commit will be in the stage mode)
+- git reset --soft <commit-hash>    => soft reset simply move the specify commit in the history but keep changes stage in our working directory (every changes that we will make after that commit will be in the stage mode)
+- git reset <commit-hash>           => mixed reset move the specific commit into the history unstage the changes and keeps them in the working directory 
+- git reset --soft <commit-hash>    => hard reset move the specific commit into the history and discard all changes in the working directory and staging area 
+- git revert <commit-hash>          => use if a specific commit brake and you want to undo from another commit without losing the commit history 
