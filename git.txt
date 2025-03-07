@@ -52,5 +52,6 @@ To resolve a merge conflict, we should follow these steps :
 - and merge to main                                                             => git merge main
 - finally, go on the mergin system on our code editor and resolve the merge conflic
 
-- git reset             => allows you to remove the traces of commit in the history but give us the changes we made 
-in thoses commits
+- git reset                         => allows you to remove the traces of commit in the history but give us the changes we made 
+in thoses commits we have tree maners to use this command : 
+- git commit --soft <commi-hash>    => soft reset simply move the specify commit in the history but keep changes stage in our working directory (every changes that we will make after that commit will be in the stage mode)
