@@ -37,6 +37,18 @@ not the main pc (principal remote origin) we should run all of these commands :
 - git merge upstream/main     # Fusionne les nouvelles mises à jour du projet principal
 - git push origin main        # Met à jour ton dépôt GitHub avec les dernières modifications
 
+
+Steps to follow to collaborate with a team on GitHub:
+- Fork the repository.
+- Clone the repository.
+- Create a new branch.
+- Make your modifications.
+- Check the modifications (git status).
+- Stage and commit the changes using git add . and git commit -m 'message'.
+- Push the branch using git push --set-upstream my-branch (and if it’s not the first time, just use git push).
+- Create a pull request.
+- Wait for the administrator to merge your changes.
+
 if we want to reset our github informations in our pc, we can run the commands
 
 - git credential reject https://github.com
